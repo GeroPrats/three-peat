@@ -1,0 +1,457 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 123px;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 123px;
+    background: linear-gradient(85deg, #020024 0%, #090979 35%, #00d4ff) 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+h1 {
+    width: 450px;
+    position: relative;
+    left: 500px;
+    bottom: 100px;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav {
+    position: relative;
+    top: 80px;
+    left: 130px;
+}
+
+nav a:hover {
+    background-color: crimson;
+    color: white;
+    font-size: x-large;
+}
+
+.header__registro {
+    position: relative;
+    height: 30px;
+    width: 190px;
+    left: 1300px;
+    bottom: 160px;
+}
+
+.header__buscador {
+    position: relative;
+    width: 216px;
+    left: 550px;
+    top: 30px;
+
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: darkmagenta;
+}
+
+
+/**************************************************************** main ******************************************************************************/
+
+.primeros-productos {
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 80px;
+}
+
+.primeros-productos p {
+    position: relative;
+    top: 250px;
+    right: 250px;
+    font-size: 20px;
+}
+
+
+.segundos-productos {
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 80px;
+}
+
+.segundos-productos p {
+    position: relative;
+    top: 250px;
+    right: 250px;
+    font-size: 20px;
+}
+
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.iframe-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+footer {
+    position: relative;
+    top: 40px;
+    background: linear-gradient(85deg, rgba(2, 0, 36, 1) 0%, rgba(50, 52, 102, 1) 45%, rgba(172, 172, 172, 1) 100%);
+    height: 250px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+
+}
+
+.footer__content p {
+    position: relative;
+    top: 50px;
+}
+
+.footer__content a {
+    position: relative;
+    top: 50px;
+}
+
+/*****************************hombres***************************/
+
+.productos__hombre {
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 80px;
+
+}
+
+.productos__hombre-2 {
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 80px;
+}
+
+.productos__hombre p {
+    position: relative;
+    top: 280px;
+    right: 200px;
+    font-size: 20px;
+}
+
+.productos__hombre-2 p {
+    position: relative;
+    top: 295px;
+    right: 180px;
+    font-size: 20px;
+}
+
+/*****************************mujeres***************************/
+
+.productos__mujer {
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 80px;
+}
+
+.productos__mujer p {
+    position: relative;
+    top: 320px;
+    right: 265px;
+    font-size: 20px;
+}
+
+.productos__mujer__2 {
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 80px;
+}
+
+.productos__mujer__2 p {
+    position: relative;
+    top: 300px;
+    right: 220px;
+    font-size: 20px;
+}
+
+
+
+/*****************************marcas***************************/
+
+.marcas__1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+.marcas__2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+/*****************************contacto***************************/
+
+form {
+    margin-bottom: 280px;
+}
+
+
+/**************************registro********************************/
+.main-registro {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.registro-form {
+    background-color: black;
+    padding: 50px 40px;
+    width: 300px;
+    height: 180px;
+}
+
+.button-input {
+    position: relative;
+    top: 16px;
+    left: 73px;
+}
+
+.log-info {
+    position: relative;
+    left: 30px;
+}
+
+/* inicio sesion */
+
+.main-log {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.log-form {
+    background-color: black;
+    padding: 49px 68px;
+    ;
+    width: 300px;
+    height: 180px;
+}
+
+.boton-input-log {
+    position: relative;
+    top: 20px;
+    left: 39px;
+}
+
+
+@media screen and (max-width:500px) {
+    header {
+        width: 235vw;
+    }
+
+    h1 {
+        left: 200px;
+    }
+
+    nav {
+        left: -200px;
+    }
+
+    .header__buscador {
+        left: -85px;
+    }
+
+    .header__registro {
+        left: 650px;
+    }
+
+    h2 {
+        position: relative;
+        left: 165px;
+    }
+
+    main {
+        width: 140vw;
+        height: 400vh;
+    }
+
+    .primeros-productos {
+        flex-direction: column;
+        position: relative;
+        left: 298px;
+        height: 723px;
+        width: 278px;
+        gap: 54px;
+    }
+
+    .primeros-productos p {
+        position: relative;
+        top: 0px;
+        left: 17px;
+        font-size: 25px;
+    }
+
+    .segundos-productos {
+        flex-direction: column;
+        height: 1013px;
+        width: 278px;
+        gap: 54px;
+        position: relative;
+        top: 344px;
+        left: 295px;
+    }
+
+    .segundos-productos p {
+        position: relative;
+        top: 0px;
+        left: 17px;
+        font-size: 25px;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    h3 {
+        display: inline;
+        position: relative;
+        left: 329px;
+    }
+
+    .iframe-img img {
+        position: relative;
+        left: 204px;
+        margin-top: 20px;
+    }
+
+
+    footer {
+        width: 234vw;
+    }
+
+    h4 {
+        position: relative;
+        right: 120px;
+    }
+
+
+    .info-footer {
+        position: relative;
+        top: 60px;
+        right: 377px;
+    }
+
+
+    /* hombre */
+
+    .productos__hombre {
+        flex-direction: column;
+        position: relative;
+        left: 298px;
+        height: 50%;
+        width: 253px;
+        gap: 54px;
+    }
+
+    .productos__hombre p{
+        position: relative;
+        top: 0px;
+        left: 17px;
+        font-size: 25px;
+    }
+
+    .productos__hombre-2 {
+        flex-direction: column;
+        height: 1184px;
+        width: 251px;
+        gap: 54px;
+        position: relative;
+        top: -271px;
+        left: 295px;
+    }
+
+    .productos__hombre-2 p{
+        position: relative;
+        top: 0px;
+        left: 17px;
+        font-size: 25px;
+    }
+
+    .main__hombre {
+        width: 208vw;
+        height: 458vh;
+    }
+
+    .h2-hombre{
+        left: 0px;
+    }
+
+    /* mujer */
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
