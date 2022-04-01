@@ -24,34 +24,34 @@ body {
 
 
 h1 {
-    width: 450px;
-    position: relative;
-    left: 500px;
-    bottom: 100px;
-    font-size: 32px;
-    font-family: sans-serif;
+    width: 450px !important;
+    position: relative !important;
+    left: 500px !important;
+    bottom: 100px !important;
+    font-size: 32px !important;
+    font-family: sans-serif !important;
 }
 
 
 ul {
-    list-style: none;
+    list-style: none !important ;
 }
 
 li {
-    padding: 10px;
+    padding: 10px ;
     display: inline;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: black !important;
 
 }
 
 nav {
     position: relative;
     top: 80px;
-    left: 130px;
+    left: 72px;
 }
 
 nav a:hover {
@@ -63,16 +63,16 @@ nav a:hover {
 .header__registro {
     position: relative;
     height: 30px;
-    width: 190px;
-    left: 1300px;
+    width: 255px;
+    left: 79em;
     bottom: 160px;
 }
 
 .header__buscador {
     position: relative;
-    width: 216px;
-    left: 550px;
-    top: 30px;
+    width: 250px;
+    left: 30em;
+    top: 3em;
 
 }
 
