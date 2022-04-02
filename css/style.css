@@ -324,7 +324,7 @@ form {
         height: 400vh;
     }
 
-    .primeros-productos {
+    .primeros__productos {
         flex-direction: column;
         position: relative;
         left: 298px;
@@ -333,14 +333,14 @@ form {
         gap: 54px;
     }
 
-    .primeros-productos p {
+    .primeros__productos p {
         position: relative;
         top: 0px;
         left: 17px;
         font-size: 25px;
     }
 
-    .segundos-productos {
+    .segundos__productos {
         flex-direction: column;
         height: 1013px;
         width: 278px;
@@ -350,7 +350,7 @@ form {
         left: 295px;
     }
 
-    .segundos-productos p {
+    .segundos__productos p {
         position: relative;
         top: 0px;
         left: 17px;
