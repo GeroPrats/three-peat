@@ -13,7 +13,7 @@
 <body>
     <header>
         <div>
-            <a href="../index.html"><img src="../img/imgres.jpg" alt="Logo"></a>
+            <a href="../index.html" id="inicio"><img src="../img/imgres.jpg" alt="Logo"></a>
             <h1>Tienda Oficial De Basketball</h1>
             <div class="header__registro">
                 <ul>
@@ -21,6 +21,12 @@
                     <li><a href="../pages/iniciodesesion.html">Inicia sesion</a></li>
                 </ul>
             </div>
+        </div>
+        <div class="header__buscador">
+            <form>
+                <input type="text" name="texto" placeholder="Que estas buscando?">
+                <input type="submit" value="Buscar" id="boton">
+            </form>
         </div>
         <!----------------------------------- barra de navegacion ----------------------------------------->
         <nav>
@@ -31,24 +37,19 @@
                 <li><a href="../pages/Marcas.html">Marcas</a></li>
             </ul>
         </nav>
-        <div class="header__buscador">
-            <form>
-                <input type="text" name="texto" placeholder="Que estas buscando?">
-                <input type="submit" value="Buscar" id="boton">
-            </form>
         </div>
     </header>
     <!------------------------------- empieza el main ----------------------------------------------->
-    <h3>Registrate</h3>
-    <main class="main-registro">
-        <form class="registro-form">
-            <input class="log-info" type="email" name="email" id="email" autocomplete="off"
+    <h3 class="h3__registro">Registrate</h3>
+    <main class="main__registro">
+        <form class="registro__form">
+            <input class="log__info" type="email" name="email" id="email" autocomplete="off"
                 placeholder="Ejemplo@gmail.com">
-            <input class="log-info" type="password" name="contraseña">
-            <input class="button-input" type="submit" value="Registrarme" id="boton">
+            <input class="log__info" type="password" name="contraseña">
+            <input class="button__input" type="submit" value="Registrarme" id="boton">
         </form>
     </main>
-    <footer>
+    <footer class="footer__registro">
         <h4>Formas De Pago</h4>
         <div class="footer__content">
             <img src="../img/visa.jpg" alt="Metodo De Pago Visa">

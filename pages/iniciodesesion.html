@@ -13,14 +13,20 @@
 <body>
     <header>
         <div>
-            <a href="../index.html"><img src="../img/imgres.jpg" alt="Logo"></a>
+            <a href="../index.html" id="inicio"><img src="../img/imgres.jpg" alt="Logo"></a>
             <h1>Tienda Oficial De Basketball</h1>
             <div class="header__registro">
-            <ul>
-                <li><a href="../pages/Registro.html">Registrate</a></li>
-                <li><a href="../pages/iniciodesesion.html">Inicia sesion</a></li>
-            </ul>
+                <ul>
+                    <li><a href="../pages/Registro.html">Registrate</a></li>
+                    <li><a href="../pages/iniciodesesion.html">Inicia sesion</a></li>
+                </ul>
             </div>
+        </div>
+        <div class="header__buscador">
+            <form>
+                <input type="text" name="texto" placeholder="Que estas buscando?">
+                <input type="submit" value="Buscar" id="boton">
+            </form>
         </div>
         <!----------------------------------- barra de navegacion ----------------------------------------->
         <nav>
@@ -31,25 +37,20 @@
                 <li><a href="../pages/Marcas.html">Marcas</a></li>
             </ul>
         </nav>
-        <div class="header__buscador">
-            <form>
-                <input type="text" name="texto" placeholder="Que estas buscando?">
-                <input type="submit" value="Buscar" id="boton">
-            </form>
         </div>
     </header>
     <!------------------------------- empieza el main ----------------------------------------------->
-    <h3>Inicia Sesion</h3>
-    <main class="main-log">
+    <h3 class="h3__log">Inicia Sesion</h3>
+    <main class="main__log">
     <div>
-        <form class="log-form">
+        <form class="log__form">
             <input type="email" name="email" id="email" autocomplete="off" placeholder="Ejemplo@gmail.com">
             <input type="password" name="contraseña">
-            <input class="boton-input-log" type="submit" value="Iniciar sesion" id="boton">
+            <input class="boton__input__log" type="submit" value="Iniciar sesion" id="boton">
         </form>
     </div>
     </main>
-    <footer>
+    <footer class="footer__log">
         <h4>Formas De Pago</h4>
         <div class="footer__content">
         <img src="../img/visa.jpg" alt="Metodo De Pago Visa">

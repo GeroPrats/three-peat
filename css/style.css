@@ -24,34 +24,35 @@ body {
 
 
 h1 {
-    width: 450px;
-    position: relative;
-    left: 500px;
-    bottom: 100px;
-    font-size: 32px;
+    width: 450px ;
+    position: relative ;
+    left: 500px ;
+    bottom: 100px ;
+    font-size: 32px ;
     font-family: sans-serif;
 }
 
 
 ul {
-    list-style: none;
+    list-style: none ;
 }
 
 li {
-    padding: 10px;
+    padding: 10px ;
     display: inline;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none ;
+    color: black ;
 
 }
+
 
 nav {
     position: relative;
     top: 80px;
-    left: 130px;
+    left: -6em;
 }
 
 nav a:hover {
@@ -63,16 +64,16 @@ nav a:hover {
 .header__registro {
     position: relative;
     height: 30px;
-    width: 190px;
-    left: 1300px;
+    width: 255px;
+    left: 79em;
     bottom: 160px;
 }
 
 .header__buscador {
     position: relative;
     width: 216px;
-    left: 550px;
-    top: 30px;
+    left: 52em;
+    top: 2em;
 
 }
 
@@ -241,41 +242,50 @@ form {
     margin-bottom: 280px;
 }
 
+.form__contacto {
+    margin-bottom: 280px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    left: 24em;
+}
+
 
 /**************************registro********************************/
-.main-registro {
+.main__registro {
     display: flex;
     justify-content: center;
     height: 300px;
 }
 
-.registro-form {
+.registro__form {
     background-color: black;
     padding: 50px 40px;
     width: 300px;
     height: 180px;
 }
 
-.button-input {
+.button__input {
     position: relative;
     top: 16px;
     left: 73px;
 }
 
-.log-info {
+.log__info {
     position: relative;
     left: 30px;
 }
 
 /* inicio sesion */
 
-.main-log {
+.main__log {
     display: flex;
     justify-content: center;
     height: 300px;
 }
 
-.log-form {
+.log__form {
     background-color: black;
     padding: 49px 68px;
     ;
@@ -283,7 +293,7 @@ form {
     height: 180px;
 }
 
-.boton-input-log {
+.boton__input__log {
     position: relative;
     top: 20px;
     left: 39px;
@@ -300,15 +310,15 @@ form {
     }
 
     nav {
-        left: -200px;
+        left: -26em;
     }
 
     .header__buscador {
-        left: -85px;
+        left: 18em;
     }
 
     .header__registro {
-        left: 650px;
+        left: 46em;
     }
 
     h2 {
@@ -399,7 +409,7 @@ form {
         gap: 54px;
     }
 
-    .productos__hombre p{
+    .productos__hombre p {
         position: relative;
         top: 0px;
         left: 17px;
@@ -416,7 +426,7 @@ form {
         left: 295px;
     }
 
-    .productos__hombre-2 p{
+    .productos__hombre-2 p {
         position: relative;
         top: 0px;
         left: 17px;
@@ -428,14 +438,126 @@ form {
         height: 458vh;
     }
 
-    .h2-hombre{
+    .h2-hombre {
         left: 0px;
     }
 
     /* mujer */
+    .h2__mujer {
+        position: relative;
+        left: -12px;
+    }
+
+    .main__mujer {
+        width: 208vw;
+        height: 470vh;
+    }
+
+    .productos__mujer {
+        flex-direction: column;
+        position: relative;
+        left: 298px;
+        height: 50%;
+        width: 253px;
+        gap: 54px;
+        margin-bottom: 50px;
+    }
+
+    .productos__mujer__2 {
+        flex-direction: column;
+        position: relative;
+        left: 298px;
+        height: 50%;
+        width: 253px;
+        gap: 54px;
+    }
+
+    .productos__mujer p {
+        position: relative;
+        top: 0px;
+        right: 0px;
+        font-size: 25px;
+    }
+
+    .productos__mujer__2 p {
+        position: relative;
+        top: -43px;
+        right: 3px;
+        font-size: 25px;
+    }
+
+    /* marcas */
+    .h2__marcas {
+        position: relative;
+        left: 9px;
+    }
+
+    .main__marcas {
+        width: 191vw;
+        height: 98vh;
+    }
+
+    /* contacto */
+
+    .h3__contacto {
+        left: 16em;
+    }
+
+    .main__contacto {
+        height: 50vh;
+        width: 99vw;
+    }
+
+    .form__contacto {
+        margin-top: 84px;
+        margin-bottom: 0px;
+        left: 20em;
+    }
+
+    .footer__contacto {
+        top: 48em;
+    }
 
 
+    /* inicio de sesion */
 
+
+    .h3__log {
+        left: 17em;
+    }
+
+    .main__log {
+        width: 127vw;
+        justify-content: flex-end;
+    }
+
+    .log__form {
+        margin-top: 2em;
+    }
+
+    .footer__log {
+        top: 48em;
+    }
+
+    /* registro */
+
+    .h3__registro {
+        left: 17em;
+    }
+
+    .main__registro {
+        width: 127vw;
+        justify-content: flex-end;
+
+    }
+
+    .registro__form{
+        margin-top: 2em;
+    }
+
+    .footer__registro{
+        top: 48em;
+    }
 
 
 

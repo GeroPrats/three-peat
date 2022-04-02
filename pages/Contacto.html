@@ -13,14 +13,20 @@
 <body>
     <header>
         <div>
-            <a href="../index.html"><img src="../img/imgres.jpg" alt="Logo"></a>
+            <a href="../index.html" id="inicio"><img src="../img/imgres.jpg" alt="Logo"></a>
             <h1>Tienda Oficial De Basketball</h1>
             <div class="header__registro">
-            <ul>
-                <li><a href="../pages/Registro.html">Registrate</a></li>
-                <li><a href="../pages/iniciodesesion.html">Inicia sesion</a></li>
-            </ul>
+                <ul>
+                    <li><a href="../pages/Registro.html">Registrate</a></li>
+                    <li><a href="../pages/iniciodesesion.html">Inicia sesion</a></li>
+                </ul>
             </div>
+        </div>
+        <div class="header__buscador">
+            <form>
+                <input type="text" name="texto" placeholder="Que estas buscando?">
+                <input type="submit" value="Buscar" id="boton">
+            </form>
         </div>
         <!----------------------------------- barra de navegacion ----------------------------------------->
         <nav>
@@ -31,17 +37,11 @@
                 <li><a href="../pages/Marcas.html">Marcas</a></li>
             </ul>
         </nav>
-        <div class="header__buscador">
-            <form>
-                <input type="text" name="texto" placeholder="Que estas buscando?">
-                <input type="submit" value="Buscar" id="boton">
-            </form>
     </header>
     <!------------------------------- empieza el main ----------------------------------------------->
-    <main>
-
-    <form>
-        <h3>Contacto</h3>
+    <h3 class="h3__contacto">Contacto</h3>
+    <main class="main__contacto">
+    <form class="form__contacto">
         <input type="text" name="Nombre" placeholder="Nombre" />
         <input type="email" name="Mail" placeholder="Mail" />
         <input type="number" name="numero" placeholder="Telefono"/>
@@ -49,7 +49,7 @@
         <input type="submit" value="ENVIAR" />
     </form>
 </main>
-    <footer>
+    <footer class="footer__contacto">
         <h4>Formas De Pago</h4>
         <div class="footer__content">
         <img src="../img/visa.jpg" alt="Metodo De Pago Visa">
