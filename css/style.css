@@ -11,6 +11,9 @@ header img {
     height: 123px;
 }
 
+.animacion__logo img:hover{
+    transform: skew(20deg);
+}
 header {
     display: flex;
     width: 100vw;
@@ -51,7 +54,7 @@ a {
 nav {
     position: relative;
     top: 80px;
-    left: 130px;
+    left: -6em;
 }
 
 nav a:hover {
@@ -71,8 +74,8 @@ nav a:hover {
 .header__buscador {
     position: relative;
     width: 216px;
-    left: 550px;
-    top: 30px;
+    left: 52em;
+    top: 2em;
 
 }
 
@@ -86,13 +89,13 @@ h2 {
 
 /**************************************************************** main ******************************************************************************/
 
-.primeros-productos {
+.primeros__productos {
     display: flex;
     margin-bottom: 150px;
     margin-left: 80px;
 }
 
-.primeros-productos p {
+.primeros__productos p {
     position: relative;
     top: 250px;
     right: 250px;
@@ -100,13 +103,13 @@ h2 {
 }
 
 
-.segundos-productos {
+.segundos__productos {
     display: flex;
     margin-bottom: 150px;
     margin-left: 80px;
 }
 
-.segundos-productos p {
+.segundos__productos p {
     position: relative;
     top: 250px;
     right: 250px;
@@ -399,7 +402,7 @@ form {
         gap: 54px;
     }
 
-    .productos__hombre p{
+    .productos__hombre p {
         position: relative;
         top: 0px;
         left: 17px;
@@ -416,7 +419,7 @@ form {
         left: 295px;
     }
 
-    .productos__hombre-2 p{
+    .productos__hombre-2 p {
         position: relative;
         top: 0px;
         left: 17px;
@@ -428,7 +431,7 @@ form {
         height: 458vh;
     }
 
-    .h2-hombre{
+    .h2-hombre {
         left: 0px;
     }
 
@@ -440,18 +443,3 @@ form {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

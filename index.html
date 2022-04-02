@@ -13,8 +13,8 @@
 
 <body>
     <header>
-        <div>
-            <a href="./index.html" id="inicio"><img src="./img/imgres.jpg" alt="Logo"></a>
+        <div class="animacion__logo">
+            <a  href="./index.html" id="inicio"><img src="./img/imgres.jpg" alt="Logo"></a>
             <h1>Tienda Oficial De Basketball</h1>
             <div class="header__registro">
                 <ul>
@@ -22,6 +22,12 @@
                     <li><a href="./pages/iniciodesesion.html">Inicia sesion</a></li>
                 </ul>
             </div>
+        </div>
+<div class="header__buscador">
+            <form>
+                <input type="text" name="texto" placeholder="Que estas buscando?">
+                <input type="submit" value="Buscar" id="boton">
+            </form>
         </div>
         <!----------------------------------- barra de navegacion ----------------------------------------->
         <nav>
@@ -32,17 +38,12 @@
                 <li><a href="./pages/Marcas.html">Marcas</a></li>
             </ul>
         </nav>
-        <div class="header__buscador">
-            <form>
-                <input type="text" name="texto" placeholder="Que estas buscando?">
-                <input type="submit" value="Buscar" id="boton">
-            </form>
-        </div>
+        
     </header>
     <!------------------------------- empieza el main ----------------------------------------------->
     <main>
         <h2>Lo mas buscado</h2>
-        <div class="primeros-productos">
+        <div class="primeros__productos">
             <img src="./img/airjordan1.jpg" alt="Producto Air Jordan Jbalvin">
             <p>Jordan 1 Retro High Talle 43 $34.499</p>
             <img src="./img/curryjersey.jpg" alt="Producto Curry Jersey">
@@ -50,7 +51,7 @@
             <img src="./img/lebron.jpg" alt="Producto Lebron Jersey">
             <p>Jersey Lebron James Dorsal 6 Talle S $5.499</p>
         </div>
-        <div class="segundos-productos">
+        <div class="segundos__productos">
             <img src="./img/airjordanretro.jpg" alt="Producto Air Jordan retro">
             <p>Air Jordan 1 Talle 44 $72.299</p>
             <img src="./img/buttler.jpg" alt="Producto Jersey Buttler">

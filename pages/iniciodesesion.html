@@ -13,14 +13,20 @@
 <body>
     <header>
         <div>
-            <a href="../index.html"><img src="../img/imgres.jpg" alt="Logo"></a>
+            <a href="../index.html" id="inicio"><img src="../img/imgres.jpg" alt="Logo"></a>
             <h1>Tienda Oficial De Basketball</h1>
             <div class="header__registro">
-            <ul>
-                <li><a href="../pages/Registro.html">Registrate</a></li>
-                <li><a href="../pages/iniciodesesion.html">Inicia sesion</a></li>
-            </ul>
+                <ul>
+                    <li><a href="../pages/Registro.html">Registrate</a></li>
+                    <li><a href="../pages/iniciodesesion.html">Inicia sesion</a></li>
+                </ul>
             </div>
+        </div>
+        <div class="header__buscador">
+            <form>
+                <input type="text" name="texto" placeholder="Que estas buscando?">
+                <input type="submit" value="Buscar" id="boton">
+            </form>
         </div>
         <!----------------------------------- barra de navegacion ----------------------------------------->
         <nav>
@@ -31,12 +37,6 @@
                 <li><a href="../pages/Marcas.html">Marcas</a></li>
             </ul>
         </nav>
-        <div class="header__buscador">
-            <form>
-                <input type="text" name="texto" placeholder="Que estas buscando?">
-                <input type="submit" value="Buscar" id="boton">
-            </form>
-        </div>
     </header>
     <!------------------------------- empieza el main ----------------------------------------------->
     <h3>Inicia Sesion</h3>
