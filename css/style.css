@@ -24,12 +24,12 @@ body {
 
 
 h1 {
-    width: 450px ;
-    position: relative ;
-    left: 500px ;
-    bottom: 100px ;
-    font-size: 32px ;
-    font-family: sans-serif;
+    width: 450px !important;
+    position: relative !important;
+    left: 16em !important;
+    bottom: 100px !important;
+    font-size: 32px !important;
+    font-family: sans-serif!important;
 }
 
 
@@ -43,15 +43,15 @@ li {
 }
 
 a {
-    text-decoration: none ;
-    color: black ;
+    text-decoration: none !important ;
+    color: black !important ;
 
 }
 
 nav {
-    position: relative;
-    top: 80px;
-    left: 72px;
+    position: relative !important;
+    top: 80px !important;
+    left: -10em !important;
 }
 
 nav a:hover {
@@ -71,7 +71,7 @@ nav a:hover {
 .header__buscador {
     position: relative;
     width: 250px;
-    left: 30em;
+    left: 50em;
     top: 3em;
 
 }
