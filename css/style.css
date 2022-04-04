@@ -383,6 +383,7 @@ form {
 
     footer {
         width: 234vw;
+        height: 48vh;
     }
 
     h4 {
@@ -391,7 +392,7 @@ form {
     }
 
 
-    .info-footer {
+    .info__footer {
         position: relative;
         top: 60px;
         right: 377px;
