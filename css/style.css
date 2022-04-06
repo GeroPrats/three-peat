@@ -1,563 +1,224 @@
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-
-}
-
-header img {
-    border-radius: 50%;
-    width: 150px;
-    height: 123px;
-}
-
-header {
-    display: flex;
-    width: 100vw;
-    height: 123px;
-    background: linear-gradient(85deg, #020024 0%, #090979 35%, #00d4ff) 100%;
-}
-
-body {
-    overflow-x: hidden;
 }
 
 
-h1 {
-    width: 450px !important;
-    position: relative !important;
-    left: 16em !important;
-    bottom: 100px !important;
-    font-size: 32px !important;
-    font-family: sans-serif!important;
+header img{
+    width: 100px;
+    border-radius: 28px;
 }
 
-
-ul {
-    list-style: none ;
-}
-
-li {
-    padding: 10px ;
-    display: inline;
-}
-
-a {
-    text-decoration: none !important ;
-    color: black !important ;
-
-}
-
-nav {
-    position: relative !important;
-    top: 80px !important;
-    left: -10em !important;
-}
-
-nav a:hover {
-    background-color: crimson;
-    color: white;
-    font-size: x-large;
-}
-
-.header__registro {
+header h1{
+    font-size: xx-large;
     position: relative;
-    height: 30px;
-    width: 255px;
-    left: 79em;
-    bottom: 160px;
+    right: 14rem; 
 }
 
-.header__buscador {
-    position: relative;
-    width: 250px;
-    left: 50em;
-    top: 3em;
-
-}
-
-h2 {
-    font-size: 30px;
+h2{
     text-align: center;
-    margin-bottom: 30px;
-    color: darkmagenta;
 }
 
-
-/**************************************************************** main ******************************************************************************/
-
-.primeros-productos {
+.productos__1{
     display: flex;
-    margin-bottom: 150px;
-    margin-left: 80px;
+    margin: 5rem 0rem 15rem 8rem;
+    
 }
 
-.primeros-productos p {
+.productos__1 p{
     position: relative;
-    top: 250px;
-    right: 250px;
-    font-size: 20px;
+    top: 15rem;
+    right: 13rem ;
 }
-
-
-.segundos-productos {
-    display: flex;
-    margin-bottom: 150px;
-    margin-left: 80px;
-}
-
-.segundos-productos p {
+.boton{
     position: relative;
-    top: 250px;
-    right: 250px;
-    font-size: 20px;
+    top: 21rem;
+    right: 22rem;
 }
 
-
-h3 {
+.productos__2{
     display: flex;
-    justify-content: center;
-    font-size: 25px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 0rem 0rem 20rem 8rem ;
+    
 }
 
-.iframe-img {
+.productos__2 p{
+    position: relative;
+    top: 16rem;
+    right: 14rem ;
+}
+
+.iframe{
     display: flex;
     justify-content: space-around;
+    margin: 5rem 0rem 5rem 0rem;
+    
+    
 }
 
-h4 {
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    
+}
+
+footer{
     display: flex;
+    margin-top: 2rem;
     justify-content: center;
-    font-size: 25px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-
+    background: linear-gradient(85deg, rgb(146, 60, 77) 0%, rgb(175, 20, 82) 45%, rgb(221, 138, 203) 100%);
 }
 
-footer {
+
+/* hombre */
+
+
+.hombre__1{
+    display: flex;
+    margin: 5rem 0rem 15rem 8rem;
+}
+
+.hombre__1 p{
     position: relative;
-    top: 40px;
-    background: linear-gradient(85deg, rgba(2, 0, 36, 1) 0%, rgba(50, 52, 102, 1) 45%, rgba(172, 172, 172, 1) 100%);
-    height: 250px;
+    top: 16rem;
+    right: 13rem ;
 }
 
-.footer__content {
+.hombre__2{
     display: flex;
-    justify-content: center;
-    font-size: larger;
-
+    margin: 0rem 0rem 20rem 8rem
 }
 
-.footer__content p {
+.hombre__2 p{
     position: relative;
-    top: 50px;
+    top: 18rem;
+    right: 14rem ;
 }
 
-.footer__content a {
+.boton__2{
     position: relative;
-    top: 50px;
-}
-
-/*****************************hombres***************************/
-
-.productos__hombre {
-    display: flex;
-    margin-bottom: 150px;
-    margin-left: 80px;
-
-}
-
-.productos__hombre-2 {
-    display: flex;
-    margin-bottom: 150px;
-    margin-left: 80px;
-}
-
-.productos__hombre p {
-    position: relative;
-    top: 280px;
-    right: 200px;
-    font-size: 20px;
-}
-
-.productos__hombre-2 p {
-    position: relative;
-    top: 295px;
-    right: 180px;
-    font-size: 20px;
-}
-
-/*****************************mujeres***************************/
-
-.productos__mujer {
-    display: flex;
-    margin-bottom: 150px;
-    margin-left: 80px;
-}
-
-.productos__mujer p {
-    position: relative;
-    top: 320px;
-    right: 265px;
-    font-size: 20px;
-}
-
-.productos__mujer__2 {
-    display: flex;
-    margin-bottom: 150px;
-    margin-left: 80px;
-}
-
-.productos__mujer__2 p {
-    position: relative;
-    top: 300px;
-    right: 220px;
-    font-size: 20px;
+    top: 23rem;
+    right: 22rem;
 }
 
 
+@media screen and (max-width:500px){
 
-/*****************************marcas***************************/
+    header{
+        width: 233vw;
+    }
 
-.marcas__1 {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    margin-bottom: 150px;
-}
+    
+    h1{
+        position: relative;
+        left: 11em;
+        bottom: 7em;
+        width: 500px;
+    }
 
-.marcas__2 {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    margin-bottom: 150px;
-}
+    h2{
+        position: relative;
+        left: 7em;
+        font-size: 45px !important;
+    }
 
-/*****************************contacto***************************/
+    .productos__1{
+        flex-direction: column;
+        position: relative;
+        left: 14rem;
+        width: 360px;
+    }
 
-form {
-    margin-bottom: 280px;
-}
+    .productos__2{
+        flex-direction: column;
+        position: relative;
+        left: 14rem;
+        width: 360px;
+    }
 
-.form__contacto {
-    margin-bottom: 280px;
-    display: flex;
+    .productos__1 p{
+        position: relative;
+        top: 0em;
+        font-size: 2em;
+        left: 1em;
+    }
+
+    .productos__2 p{
+        position: relative;
+        top: 0em;
+        font-size: 2em;
+        left: 1em;
+    }
+
+    .boton{
+        position: relative;
+        top: -1em;
+        left: 7em;
+        
+    }
+
+    button{
+        width: 120px;
+        height: 80px;
+    }
+    
+        iframe{
+            display: none;
+        }
+
+        h3{
+            position: relative;
+            left: 13em;
+        }
+        .iframe{
+            position: relative;
+            left: 20em;
+        }
+
+        h4{
+            position: relative;
+            left: 14em;
+        }
+
+        footer{
+            width: 230vw;
+        }
+
+/* hombre */
+
+.hombre__1{
     flex-direction: column;
-    width: 50%;
     position: relative;
-    left: 24em;
+    left: 19rem;
+    width: 275px;
 }
 
-
-/**************************registro********************************/
-.main-registro {
-    display: flex;
-    justify-content: center;
-    height: 300px;
-}
-
-.registro-form {
-    background-color: black;
-    padding: 50px 40px;
-    width: 300px;
-    height: 180px;
-}
-
-.button-input {
+.hombre__1 p{
     position: relative;
-    top: 16px;
-    left: 73px;
+        top: 0em;
+        font-size: 2em;
+        left: 1em;
 }
-
-.log-info {
+.hombre__2{
+    flex-direction: column;
     position: relative;
-    left: 30px;
+    left: 19rem;
+    width: 275px;
 }
-
-/* inicio sesion */
-
-.main-log {
-    display: flex;
-    justify-content: center;
-    height: 300px;
-}
-
-.log-form {
-    background-color: black;
-    padding: 49px 68px;
-    ;
-    width: 300px;
-    height: 180px;
-}
-
-.boton-input-log {
+.hombre__2 p{
     position: relative;
-    top: 20px;
-    left: 39px;
+        top: 0em;
+        font-size: 2em;
+        left: 1em;
 }
 
-
-@media screen and (max-width:500px) {
-    header {
-        width: 235vw;
-    }
-
-    h1 {
-        left: 200px;
-    }
-
-    nav {
-        left: -200px;
-    }
-
-    .header__buscador {
-        left: -85px;
-    }
-
-    .header__registro {
-        left: 650px;
-    }
-
-    h2 {
-        position: relative;
-        left: 165px;
-    }
-
-    main {
-        width: 140vw;
-        height: 400vh;
-    }
-
-    .primeros-productos {
-        flex-direction: column;
-        position: relative;
-        left: 298px;
-        height: 723px;
-        width: 278px;
-        gap: 54px;
-    }
-
-    .primeros-productos p {
-        position: relative;
-        top: 0px;
-        left: 17px;
-        font-size: 25px;
-    }
-
-    .segundos-productos {
-        flex-direction: column;
-        height: 1013px;
-        width: 278px;
-        gap: 54px;
-        position: relative;
-        top: 344px;
-        left: 295px;
-    }
-
-    .segundos-productos p {
-        position: relative;
-        top: 0px;
-        left: 17px;
-        font-size: 25px;
-    }
-
-    iframe {
-        display: none;
-    }
-
-    h3 {
-        display: inline;
-        position: relative;
-        left: 329px;
-    }
-
-    .iframe-img img {
-        position: relative;
-        left: 204px;
-        margin-top: 20px;
-    }
-
-
-    footer {
-        width: 234vw;
-    }
-
-    h4 {
-        position: relative;
-        right: 120px;
-    }
-
-
-    .info-footer {
-        position: relative;
-        top: 60px;
-        right: 377px;
-    }
-
-
-    /* hombre */
-
-    .productos__hombre {
-        flex-direction: column;
-        position: relative;
-        left: 298px;
-        height: 50%;
-        width: 253px;
-        gap: 54px;
-    }
-
-    .productos__hombre p {
-        position: relative;
-        top: 0px;
-        left: 17px;
-        font-size: 25px;
-    }
-
-    .productos__hombre-2 {
-        flex-direction: column;
-        height: 1184px;
-        width: 251px;
-        gap: 54px;
-        position: relative;
-        top: -271px;
-        left: 295px;
-    }
-
-    .productos__hombre-2 p {
-        position: relative;
-        top: 0px;
-        left: 17px;
-        font-size: 25px;
-    }
-
-    .main__hombre {
-        width: 208vw;
-        height: 458vh;
-    }
-
-    .h2-hombre {
-        left: 0px;
-    }
-
-    /* mujer */
-    .h2__mujer {
-        position: relative;
-        left: -12px;
-    }
-
-    .main__mujer {
-        width: 208vw;
-        height: 470vh;
-    }
-
-    .productos__mujer {
-        flex-direction: column;
-        position: relative;
-        left: 298px;
-        height: 50%;
-        width: 253px;
-        gap: 54px;
-        margin-bottom: 50px;
-    }
-
-    .productos__mujer__2 {
-        flex-direction: column;
-        position: relative;
-        left: 298px;
-        height: 50%;
-        width: 253px;
-        gap: 54px;
-    }
-
-    .productos__mujer p {
-        position: relative;
-        top: 0px;
-        right: 0px;
-        font-size: 25px;
-    }
-
-    .productos__mujer__2 p {
-        position: relative;
-        top: -43px;
-        right: 3px;
-        font-size: 25px;
-    }
-
-    /* marcas */
-    .h2__marcas {
-        position: relative;
-        left: 9px;
-    }
-
-    .main__marcas {
-        width: 191vw;
-        height: 98vh;
-    }
-
-    /* contacto */
-
-    .h3__contacto {
-        left: 16em;
-    }
-
-    .main__contacto {
-        height: 50vh;
-        width: 99vw;
-    }
-
-    .form__contacto {
-        margin-top: 84px;
-        margin-bottom: 0px;
-        left: 20em;
-    }
-
-    .footer__contacto {
-        top: 48em;
-    }
-
-
-    /* inicio de sesion */
-
-
-    .h3__log {
-        left: 17em;
-    }
-
-    .main-log {
-        width: 127vw;
-        justify-content: flex-end;
-    }
-
-    .log-form {
-        margin-top: 2em;
-    }
-
-    .footer__log {
-        top: 48em;
-    }
-
-    /* registro */
-
-    .h3__registro {
-        left: 17em;
-    }
-
-    .main-registro {
-        width: 127vw;
-        justify-content: flex-end;
-
-    }
-
-    .registro-form{
-        margin-top: 2em;
-    }
-
-    .footer__registro{
-        top: 48em;
-    }
-
-
-
+.boton__2{
+    position: relative;
+        top: -1em;
+        left: 7em;
+}
 }

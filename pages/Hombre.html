@@ -6,81 +6,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" type="image,jpg" href="../img/imgres.jpg">
+    <link rel="icon" type="image.jpg" href="../img/imgres.jpg">
     <script src="https://kit.fontawesome.com/5023ec5b0f.js" crossorigin="anonymous"></script>
-    <title>Hombre</title>
+    <title>Three Peat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <div>
-            <a href="../index.html" id="inicio"><img src="../img/imgres.jpg" alt="Logo"></a>
-            <h1>Tienda Oficial De Basketball</h1>
-            <div class="header__registro">
-                <ul>
-                    <li><a href="../pages/Registro.html">Registrate</a></li>
-                    <li><a href="../pages/iniciodesesion.html">Inicia sesion</a></li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/imgres.jpg" id="inicio" alt="Logo"></a>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/Hombre.html">Hombres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/Mujer.html">Mujeres</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Log-in
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../pages/iniciodesesion.html">Inicia sesion</a></li>
+                                <li><a class="dropdown-item" href="../pages/Registro.html">Registrate</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="../pages/Contacto.html">Contacto</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/Marcas.html">Marcas</a>
+                        </li>
+                    </ul>
+                    <h1>Tienda Oficial De Basketball</h1>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-        </div>
-        <div class="header__buscador">
-            <form>
-                <input type="text" name="texto" placeholder="Que estas buscando?">
-                <input type="submit" value="Buscar" id="boton">
-            </form>
-        </div>
-        <!----------------------------------- barra de navegacion ----------------------------------------->
-        <nav>
-            <ul>
-                <li><a href="../pages/Contacto.html">Contacto</a></li>
-                <li><a href="../pages/Hombre.html">Hombre</a></li>
-                <li><a href="../pages/Mujer.html">Mujer</a></li>
-                <li><a href="../pages/Marcas.html">Marcas</a></li>
-            </ul>
         </nav>
     </header>
-    <!------------------------------- empieza el main ----------------------------------------------->
-    <main class="main__hombre">
-        <h2 class="h2-hombre">Para Ellos</h2>
-        <div class="productos__hombre">
+    <main>
+        <h2>Para Ellos</h2>
+        <div class="hombre__1">
             <img src="../img/kobye.jpg" alt="Producto Kobye Jersey">
             <p>Jersey Kobye Bryant Talle M $8.9999</p>
+            <div class="boton">
+                <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
             <img src="../img/manu.jpg" alt="Producto Manu jersey">
             <p>Jersey Manu Ginóbili Dorsal 20 Talle M $4.999</p>
+            <div class="boton">
+                <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
             <img src="../img/zapa.jpg" alt="Producto zapatillas Jordan">
             <p>Zapatillas Jordan Talle 44 $16.999</p>
+            <div class="boton">
+                <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
         </div>
-        <div class="productos__hombre-2">
+        <div class="hombre__2">
             <img src="../img/tunesquad.jpg" alt="Producto Tune Squad conjunto retro">
             <p>Conjunto Tune Squad Talle camiseta M Pantalon 44 $9.999</p>
+            <div class="boton__2">
+                <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
             <img src="../img/short.jpg" alt="Producto short Basketball addidas">
             <p>Short addidas basket Talle 42 $3.099</p>
+            <div class="boton__2">
+                <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
             <img src="../img/utah.jpg" alt="Producto Jersey donovan mitchell">
             <p>Jersey donovan mitchell Dorsal 45 Talle L $4.499</p>
+            <div class="boton__2">
+                <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
         </div>
     </main>
-    <h3>Podes encontrarnos en</h3>
-    <div class="iframe-img">
+    </main>
+
+   <h3>Podes encontrarnos en</h3>
+    <div class="iframe"> 
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.798208785646!2d-65.29213928511902!3d-26.814553183170027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94224349d20c1ecf%3A0x711977f511eb45!2sSolar!5e0!3m2!1ses!2sar!4v1640017482003!5m2!1ses!2sar"
             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <img src="../img/foto-solar.jpg" alt="foto-lugar">
     </div>
+    <h4>Formas De Pago</h4>
     <footer>
-        <h4>Formas De Pago</h4>
+        
         <div class="footer__content">
             <img src="../img/visa.jpg" alt="Metodo De Pago Visa">
             <img src="../img/master.jpg" alt="Metodo De Pago Master">
             <img src="../img/american.jpg" alt="Metodo De Pago American">
             <img src="../img/mercadopago.jpg" alt="Metodo De Pago Mercadopago">
             <img src="../img/rapipago.jpg" alt="Metodo De Pago Rapipago">
-            <div class="info-footer">
+            <div class="info__footer">
                 <p>Copyright © 2021 Todos los derechos reservados.</p>
                 <p>Envios a todo el pais.</p>
                 <a href="#inicio"><i class="fas fa-arrow-up"></i></a>
             </div>
         </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
