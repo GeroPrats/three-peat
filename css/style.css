@@ -11,6 +11,10 @@ header img {
     height: 123px;
 }
 
+.animacion__logo img:hover {
+    transform: rotate(20deg);
+}
+
 header {
     display: flex;
     width: 100vw;
@@ -24,27 +28,27 @@ body {
 
 
 h1 {
-    width: 450px ;
-    position: relative ;
-    left: 500px ;
-    bottom: 100px ;
-    font-size: 32px ;
+    width: 450px;
+    position: relative;
+    left: 500px;
+    bottom: 100px;
+    font-size: 32px;
     font-family: sans-serif;
 }
 
 
 ul {
-    list-style: none ;
+    list-style: none;
 }
 
 li {
-    padding: 10px ;
+    padding: 10px;
     display: inline;
 }
 
 a {
-    text-decoration: none ;
-    color: black ;
+    text-decoration: none;
+    color: black;
 
 }
 
@@ -65,7 +69,7 @@ nav a:hover {
     position: relative;
     height: 30px;
     width: 255px;
-    left: 79em;
+    left: 81em;
     bottom: 160px;
 }
 
@@ -87,33 +91,39 @@ h2 {
 
 /**************************************************************** main ******************************************************************************/
 
-.primeros-productos {
+.primeros__productos {
     display: flex;
     margin-bottom: 150px;
     margin-left: 80px;
 }
 
-.primeros-productos p {
+.primeros__productos p {
     position: relative;
     top: 250px;
     right: 250px;
     font-size: 20px;
 }
 
+.primeros__productos img:hover {
+    transform: scale(0.9, 0.9);
+}
 
-.segundos-productos {
+.segundos__productos {
     display: flex;
     margin-bottom: 150px;
     margin-left: 80px;
 }
 
-.segundos-productos p {
+.segundos__productos p {
     position: relative;
     top: 250px;
     right: 250px;
     font-size: 20px;
 }
 
+.segundos__productos img:hover {
+    transform: scale(0.9, 0.9);
+}
 
 h3 {
     display: flex;
@@ -169,11 +179,16 @@ footer {
     margin-left: 80px;
 
 }
-
+.productos__hombre img:hover{
+    transform: scale(0.9, 0.9);
+}
 .productos__hombre-2 {
     display: flex;
     margin-bottom: 150px;
     margin-left: 80px;
+}
+.productos__hombre-2 img:hover{
+    transform: scale(0.9, 0.9);
 }
 
 .productos__hombre p {
@@ -331,7 +346,7 @@ form {
         height: 400vh;
     }
 
-    .primeros-productos {
+    .primeros__productos {
         flex-direction: column;
         position: relative;
         left: 298px;
@@ -340,14 +355,14 @@ form {
         gap: 54px;
     }
 
-    .primeros-productos p {
+    .primeros__productos p {
         position: relative;
         top: 0px;
         left: 17px;
         font-size: 25px;
     }
 
-    .segundos-productos {
+    .segundos__productos {
         flex-direction: column;
         height: 1013px;
         width: 278px;
@@ -357,7 +372,7 @@ form {
         left: 295px;
     }
 
-    .segundos-productos p {
+    .segundos__productos p {
         position: relative;
         top: 0px;
         left: 17px;
@@ -407,14 +422,14 @@ form {
         left: 298px;
         height: 50%;
         width: 253px;
-        gap: 54px;
+        gap: 39px;
     }
 
     .productos__hombre p {
         position: relative;
         top: 0px;
         left: 17px;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .productos__hombre-2 {
@@ -431,7 +446,7 @@ form {
         position: relative;
         top: 0px;
         left: 17px;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .main__hombre {
@@ -460,7 +475,7 @@ form {
         left: 298px;
         height: 50%;
         width: 253px;
-        gap: 54px;
+        gap: 48px;
         margin-bottom: 50px;
     }
 
@@ -470,21 +485,21 @@ form {
         left: 298px;
         height: 50%;
         width: 253px;
-        gap: 54px;
+        gap: 50px;
     }
 
     .productos__mujer p {
         position: relative;
         top: 0px;
         right: 0px;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .productos__mujer__2 p {
         position: relative;
         top: -43px;
         right: 3px;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     /* marcas */
@@ -552,29 +567,14 @@ form {
 
     }
 
-    .registro__form{
+    .registro__form {
         margin-top: 2em;
     }
 
-    .footer__registro{
+    .footer__registro {
         top: 48em;
     }
 
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
