@@ -1,0 +1,55 @@
+.productos__mujer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 80px;
+}
+
+.productos__mujer p {
+    position: relative;
+    top: 320px;
+    right: 265px;
+    font-size: 20px;
+}
+
+.productos__mujer img:hover {
+    -webkit-transform: scale(0.9, 0.9);
+    transform: scale(0.9, 0.9);
+}
+
+.productos__mujer p:nth-of-type(1) {
+    right: 220px;
+}
+
+.productos__mujer p:last-child {
+    right: 180px;
+}
+
+.productos__mujer__2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 80px;
+}
+
+.productos__mujer__2 p {
+    position: relative;
+    top: 300px;
+    right: 220px;
+    font-size: 20px;
+}
+
+.productos__mujer__2 p:last-child {
+    right: 255px;
+}
+
+.productos__mujer__2 p :nth-of-type(1) {
+    right: 183px;
+}
+
+.productos__mujer__2 img:hover {
+    -webkit-transform: scale(0.9, 0.9);
+    transform: scale(0.9, 0.9);
+    }

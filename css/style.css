@@ -69,7 +69,7 @@ nav a:hover {
     position: relative;
     height: 30px;
     width: 255px;
-    left: 81em;
+    left: 80em;
     bottom: 160px;
 }
 
@@ -85,7 +85,6 @@ h2 {
     font-size: 30px;
     text-align: center;
     margin-bottom: 30px;
-    color: darkmagenta;
 }
 
 
@@ -177,8 +176,12 @@ footer {
     display: flex;
     margin-bottom: 150px;
     margin-left: 80px;
-
 }
+.productos__hombre img:nth-of-type(2n){
+    position: relative;
+    left: 3em;
+}
+
 .productos__hombre img:hover{
     transform: scale(0.9, 0.9);
 }
@@ -205,12 +208,29 @@ footer {
     font-size: 20px;
 }
 
+.productos__hombre-2 :nth-child(2){
+right: 240px;
+}
+
+
 /*****************************mujeres***************************/
 
 .productos__mujer {
     display: flex;
     margin-bottom: 150px;
     margin-left: 80px;
+}
+
+.productos__mujer img:hover{
+    transform: scale(0.9, 0.9);
+}
+
+.productos__mujer p:nth-of-type(1){
+    right: 220px;
+}
+
+.productos__mujer p:last-child{
+    right: 185px; 
 }
 
 .productos__mujer p {
@@ -224,6 +244,17 @@ footer {
     display: flex;
     margin-bottom: 150px;
     margin-left: 80px;
+}
+
+.productos__mujer__2 p:nth-of-type(1){
+    right: 183px;
+}
+
+.productos__mujer__2 p:last-child{
+    right: 255px;
+}
+.productos__mujer__2 img:hover{
+    transform: scale(0.9, 0.9);
 }
 
 .productos__mujer__2 p {
@@ -244,11 +275,18 @@ footer {
     margin-bottom: 150px;
 }
 
+.marcas__1 img:hover{
+    box-shadow: black 5px 5px 5px 5px;
+}
+
 .marcas__2 {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     margin-bottom: 150px;
+}
+.marcas__2 img:hover{
+    box-shadow: black 5px 5px 5px 5px;
 }
 
 /*****************************contacto***************************/
@@ -424,6 +462,9 @@ form {
         width: 253px;
         gap: 39px;
     }
+    .productos__hombre img:nth-of-type(2n){
+        position: relative;
+        left: 0em;}
 
     .productos__hombre p {
         position: relative;
@@ -487,7 +528,12 @@ form {
         width: 253px;
         gap: 50px;
     }
-
+    .productos__mujer p:nth-of-type(1){
+        right: 0px;
+    }
+    .productos__mujer p:last-child{
+        right: 0px; 
+    }
     .productos__mujer p {
         position: relative;
         top: 0px;
@@ -502,6 +548,13 @@ form {
         font-size: 30px;
     }
 
+    .productos__mujer__2 p:nth-of-type(1){
+        right: 0px;
+    }
+
+.productos__mujer__2 p:last-child{
+        right: 0px;
+    }
     /* marcas */
     .h2__marcas {
         position: relative;
