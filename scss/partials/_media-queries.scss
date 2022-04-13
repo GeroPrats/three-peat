@@ -1,0 +1,269 @@
+@media screen and (max-width:500px) {
+    header {
+        width: 235vw;
+
+        h1 {
+            left: 200px;
+        }
+
+        nav {
+            left: -26em;
+        }
+    }
+
+    .header__buscador {
+        left: 18em;
+    }
+
+    .header__registro {
+        left: 46em;
+    }
+
+    main {
+        width: 140vw;
+        height: 400vh;
+
+        h2 {
+            position: relative;
+            left: 165px;
+        }
+    }
+
+    .primeros__productos {
+        flex-direction: column;
+        position: relative;
+        left: 298px;
+        height: 723px;
+        width: 278px;
+        gap: 54px;
+
+        p {
+            position: relative;
+            top: 0px;
+            left: 17px;
+            font-size: 25px;
+        }
+    }
+
+    .segundos__productos {
+        flex-direction: column;
+        height: 1013px;
+        width: 278px;
+        gap: 54px;
+        position: relative;
+        top: 344px;
+        left: 295px;
+
+        p {
+            position: relative;
+            top: 0px;
+            left: 17px;
+            font-size: 25px;
+        }
+    }
+
+    iframe {
+        display: none;
+    }
+
+    h3 {
+        display: inline;
+        position: relative;
+        left: 329px;
+    }
+
+    .iframe-img img {
+        position: relative;
+        left: 204px;
+        margin-top: 20px;
+    }
+
+    footer {
+        width: 234vw;
+        height: 48vh;
+
+        h4 {
+            position: relative;
+            right: 120px;
+        }
+    }
+
+    .info__footer {
+        position: relative;
+        top: 60px;
+        right: 377px;
+    }
+
+    .productos__hombre {
+        flex-direction: column;
+        position: relative;
+        left: 298px;
+        height: 50%;
+        width: 253px;
+        gap: 39px;
+
+        p {
+            position: relative;
+            top: 0px;
+            left: 17px;
+            font-size: 30px;
+        }
+
+        img {
+            &:nth-of-type(2n) {
+                position: relative;
+                left: 0em;
+            }
+        }
+    }
+
+    .productos__hombre-2 {
+        flex-direction: column;
+        height: 1184px;
+        width: 251px;
+        gap: 54px;
+        position: relative;
+        top: -271px;
+        left: 295px;
+
+        p {
+            position: relative;
+            top: 0px;
+            left: 17px;
+            font-size: 30px;
+        }
+    }
+
+    .main__hombre {
+        width: 208vw;
+        height: 458vh;
+
+        h2 {
+            left: 0px;
+        }
+    }
+
+    .main__mujer {
+        width: 208vw;
+        height: 470vh;
+
+        h2 {
+            position: relative;
+            left: -12px;
+        }
+    }
+
+    .productos__mujer {
+        flex-direction: column;
+        position: relative;
+        left: 298px;
+        height: 50%;
+        width: 253px;
+        gap: 48px;
+        margin-bottom: 50px;
+
+
+        p {
+            position: relative;
+            top: 0px;
+            right: 0px;
+            font-size: 30px;
+
+            &:nth-of-type(1) {
+                right: 0px;
+            }
+
+            &:last-child {
+                right: 0px;
+            }
+        }
+    }
+
+    .productos__mujer__2 {
+        flex-direction: column;
+        position: relative;
+        left: 298px;
+        height: 50%;
+        width: 253px;
+        gap: 50px;
+
+        p {
+            position: relative;
+            top: -43px;
+            right: 3px;
+            font-size: 30px;
+
+            &:nth-of-type(1) {
+                right: 0px;
+            }
+
+            &:last-child {
+                right: 0px;
+            }
+        }
+    }
+
+    .main__marcas {
+        width: 191vw;
+        height: 98vh;
+
+        h2 {
+            position: relative;
+            left: 9px;
+        }
+    }
+
+    .main__contacto {
+        height: 50vh;
+        width: 99vw;
+
+
+        form {
+            margin-top: 84px;
+            margin-bottom: 0px;
+            left: 20em;
+        }
+    }
+
+    .footer__contacto {
+        top: 48em;
+    }
+
+    .h3__contacto {
+        left: 16em;
+    }
+
+    .main__log {
+        width: 127vw;
+        justify-content: flex-end;
+
+        form {
+            margin-top: 2em;
+        }
+    }
+
+    .footer__log {
+        top: 48em;
+    }
+
+    .h3__log {
+        left: 17em;
+    }
+    .main__registro {
+        width: 127vw;
+        justify-content: flex-end;
+
+        form{
+            margin-top: 2em;
+        }
+    }
+
+    .footer__registro {
+        top: 48em;
+    }
+    .h3__registro {
+        left: 17em;
+    }
+
+
+}

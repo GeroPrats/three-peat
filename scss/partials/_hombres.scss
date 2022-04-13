@@ -1,0 +1,53 @@
+.productos__hombre {
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 80px;
+
+    img {
+        &:hover {
+            transform: scale(0.9, 0.9);
+        }
+    }
+
+    img {
+        &:nth-of-type(2n) {
+            position: relative;
+            left: 3em;
+        }
+    }
+
+    p {
+        position: relative;
+        top: 280px;
+        right: 200px;
+        font-size: 20px;
+    }
+}
+
+.productos__hombre-2 {
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 80px;
+
+
+    p {
+        position: relative;
+        top: 295px;
+        right: 180px;
+        font-size: 20px;
+    }
+
+    img {
+        &:hover {
+            transform: scale(0.9, 0.9);
+        }
+    }
+
+    img {
+        &:nth-child(2) {
+            right: 240px;
+        }
+    }
+
+
+}

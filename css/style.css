@@ -276,7 +276,7 @@ right: 240px;
 }
 
 .marcas__1 img:hover{
-    box-shadow: black 5px 5px 5px 5px;
+    box-shadow: black 1px 5px 20px -5px;
 }
 
 .marcas__2 {
@@ -286,7 +286,7 @@ right: 240px;
     margin-bottom: 150px;
 }
 .marcas__2 img:hover{
-    box-shadow: black 5px 5px 5px 5px;
+    box-shadow: black 1px 5px 20px -5px;
 }
 
 /*****************************contacto***************************/
