@@ -33,7 +33,7 @@ header {
 
                 a {
                     text-decoration: none;
-                    color: black;
+                    color: map-get($colores , ancla-color );
 
                 }
             }
@@ -46,8 +46,8 @@ header {
 nav {
     a {
         &:hover {
-            background-color: crimson;
-            color: white;
+            background-color: map-get($colores , bg-hover );
+            color: map-get($colores , color-hover ) ;
             font-size: x-large;
         }
     }
@@ -82,7 +82,7 @@ nav {
             display: inline;
             a {
                 text-decoration: none;
-                color: black;
+                color: map-get($colores , ancla-color );
             }
             }
     }

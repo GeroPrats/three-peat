@@ -1,0 +1,11 @@
+$colores: (
+    bg-hover: crimson ,
+    color-hover: white ,
+    ancla-color: black ,
+);
+
+@mixin flex ($flex, $jc-center, $jc-se ) {
+    display: $flex ;
+    justify-content: $jc-center;
+    justify-content: $jc-se;
+}

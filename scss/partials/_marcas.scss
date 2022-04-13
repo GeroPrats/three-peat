@@ -1,7 +1,5 @@
 .marcas__1 {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
+    @include flex(flex, center, space-evenly);
     margin-bottom: 150px;
 
     img {
@@ -12,10 +10,9 @@
 }
 
 .marcas__2 {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
+    @include flex(flex, center, space-evenly);
     margin-bottom: 150px;
+
 
     img {
         &:hover {
