@@ -99,10 +99,64 @@ footer{
     right: 14rem ;
 }
 
-.boton__2{
+.boton__hombre{
+    position: relative;
+    top: 20rem;
+    right: 22rem;
+}
+
+.boton__hombre-2{
     position: relative;
     top: 23rem;
     right: 22rem;
+}
+
+/* mujer */
+.productos__mujer{
+    display: flex;
+    margin: 5rem 0rem 15rem 8rem;
+}
+
+.productos__mujer p{
+    position: relative;
+    top: 20rem;
+    right: 13rem ;
+}
+
+.ajuste__mujer{
+    left: -9rem;
+}
+
+.ajuste{
+    left: -18rem;
+}
+
+.productos__mujer__2 p{
+    position: relative;
+    top: 19rem;
+    right: 13rem ;
+}
+
+.boton__mujer{
+    position: relative;
+    top: 25rem;
+    right: 22rem;
+}
+
+.productos__mujer__2{
+    display: flex;
+    margin: 5rem 0rem 15rem 8rem;
+}
+
+/* contacto */
+
+.form__contacto {
+    margin: 3rem 0rem 5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    left: 24em;
 }
 
 
@@ -131,6 +185,7 @@ footer{
         position: relative;
         left: 14rem;
         width: 360px;
+        margin: 5rem 0rem 5rem 8rem;
     }
 
     .productos__2{
@@ -138,6 +193,7 @@ footer{
         position: relative;
         left: 14rem;
         width: 360px;
+        margin: 5rem 0rem 5rem 8rem;
     }
 
     .productos__1 p{
@@ -157,7 +213,7 @@ footer{
     .boton{
         position: relative;
         top: -1em;
-        left: 7em;
+        left: 8em;
         
     }
 
@@ -195,6 +251,7 @@ footer{
     position: relative;
     left: 19rem;
     width: 275px;
+    margin: 5rem 0rem 6rem 8rem;
 }
 
 .hombre__1 p{
@@ -208,6 +265,7 @@ footer{
     position: relative;
     left: 19rem;
     width: 275px;
+    margin: 0rem 0rem 5rem 8rem;
 }
 .hombre__2 p{
     position: relative;
@@ -216,9 +274,16 @@ footer{
         left: 1em;
 }
 
-.boton__2{
+.boton__hombre{
     position: relative;
         top: -1em;
-        left: 7em;
+        left: 5em;
 }
+
+.boton__hombre-2{
+    position: relative;
+        top: -1em;
+        left: 5em;
+}
+
 }
