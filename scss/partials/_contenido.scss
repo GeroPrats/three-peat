@@ -1,0 +1,34 @@
+main {
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.productos__1 {
+    display: flex;
+    margin: 5rem 0rem 15rem 8rem;
+
+    p {
+        position: relative;
+        top: 15rem;
+        right: 13rem;
+    }
+}
+
+.productos__2 {
+    display: flex;
+    margin: 0rem 0rem 20rem 8rem;
+
+    p {
+        position: relative;
+        top: 16rem;
+        right: 14rem;
+    }
+}
+
+.boton {
+    position: relative;
+    top: 21rem;
+    right: 22rem;
+}

@@ -131,7 +131,10 @@ footer {
 .ajuste {
     left: -18rem;
 }
-
+.productos__mujer__2 {
+    display: flex;
+    margin: 5rem 0rem 15rem 8rem;
+}
 .productos__mujer__2 p {
     position: relative;
     top: 19rem;
@@ -144,10 +147,6 @@ footer {
     right: 22rem;
 }
 
-.productos__mujer__2 {
-    display: flex;
-    margin: 5rem 0rem 15rem 8rem;
-}
 
 /* contacto */
 .form__contacto {

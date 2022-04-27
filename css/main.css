@@ -1,0 +1,447 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header img {
+  width: 100px;
+  border-radius: 28px;
+}
+
+header h1 {
+  font-size: xx-large;
+  position: relative;
+  right: 14rem;
+}
+
+main h2 {
+  text-align: center;
+}
+
+.productos__1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5rem 0rem 15rem 8rem;
+}
+
+.productos__1 p {
+  position: relative;
+  top: 15rem;
+  right: 13rem;
+}
+
+.productos__2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0rem 0rem 20rem 8rem;
+}
+
+.productos__2 p {
+  position: relative;
+  top: 16rem;
+  right: 14rem;
+}
+
+.boton {
+  position: relative;
+  top: 21rem;
+  right: 22rem;
+}
+
+h4 {
+  text-align: center;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: linear-gradient(85deg, #923c4d 0%, #af1452 45%, #dd8acb 100%);
+}
+
+h3 {
+  text-align: center;
+}
+
+.iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 5rem 0rem 5rem 0rem;
+}
+
+.hombre__1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5rem 0rem 15rem 8rem;
+}
+
+.hombre__1 p {
+  position: relative;
+  top: 16rem;
+  right: 13rem;
+}
+
+.hombre__2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0rem 0rem 20rem 8rem;
+}
+
+.hombre__2 p {
+  position: relative;
+  top: 18rem;
+  right: 14rem;
+}
+
+.boton__hombre {
+  position: relative;
+  top: 20rem;
+  right: 22rem;
+}
+
+.boton__hombre-2 {
+  position: relative;
+  top: 23rem;
+  right: 22rem;
+}
+
+.productos__mujer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5rem 0rem 15rem 8rem;
+}
+
+.productos__mujer p {
+  position: relative;
+  top: 20rem;
+  right: 13rem;
+}
+
+.productos__mujer__2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5rem 0rem 15rem 8rem;
+}
+
+.productos__mujer__2 p {
+  position: relative;
+  top: 19rem;
+  right: 13rem;
+}
+
+.boton__mujer {
+  position: relative;
+  top: 25rem;
+  right: 22rem;
+}
+
+.ajuste__mujer {
+  left: -9rem;
+}
+
+.ajuste {
+  left: -18rem;
+}
+
+.form__contacto {
+  background-color: gold;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 10px;
+}
+
+.formbtn {
+  position: relative;
+  left: 6em;
+}
+
+.btn {
+  border-radius: 3px !important;
+  display: inline-block !important;
+  text-decoration: none;
+}
+
+.btn-green {
+  color: white !important;
+  background-color: green !important;
+}
+
+.marcas__1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 150px;
+}
+
+.marcas__2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 150px;
+}
+
+.log__form {
+  background-color: gray;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 300px;
+  height: 350px;
+  padding: 50px;
+}
+
+.log__form p {
+  margin: 5px 0px 5px 0px;
+}
+
+.btn-adj {
+  margin-top: 3em;
+  position: relative;
+  left: 3em;
+}
+
+.registro__form {
+  background-color: gray;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 300px;
+  height: 350px;
+  padding: 50px;
+}
+
+.registro__form p {
+  margin: 5px 0px 5px 0px;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    width: 233vw;
+  }
+  header h1 {
+    position: relative;
+    left: 11em;
+    bottom: 7em;
+    width: 500px;
+  }
+  h2 {
+    position: relative;
+    left: 7em;
+    font-size: 45px !important;
+  }
+  .productos__1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    left: 14rem;
+    width: 360px;
+    margin: 5rem 0rem 5rem 8rem;
+  }
+  .productos__1 p {
+    position: relative;
+    top: 0em;
+    font-size: 2em;
+    left: 1em;
+  }
+  .productos__2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    left: 14rem;
+    width: 360px;
+    margin: 5rem 0rem 5rem 8rem;
+  }
+  .productos__2 p {
+    position: relative;
+    top: 0em;
+    font-size: 2em;
+    left: 1em;
+  }
+  .boton {
+    position: relative;
+    top: -1em;
+    left: 8em;
+  }
+  button {
+    width: 120px;
+    height: 80px;
+  }
+  h3 {
+    position: relative;
+    left: 13em;
+  }
+  iframe {
+    display: none;
+  }
+  .iframe {
+    position: relative;
+    left: 20em;
+  }
+  h4 {
+    position: relative;
+    left: 14em;
+  }
+  footer {
+    width: 230vw;
+  }
+  .hombre__1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    left: 19rem;
+    width: 275px;
+    margin: 5rem 0rem 6rem 8rem;
+  }
+  .hombre__1 p {
+    position: relative;
+    top: 0em;
+    font-size: 2em;
+    left: 1em;
+  }
+  .hombre__1 .boton__hombre {
+    position: relative;
+    top: -1em;
+    left: 5em;
+  }
+  .hombre__2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    left: 19rem;
+    width: 275px;
+    margin: 0rem 0rem 5rem 8rem;
+  }
+  .hombre__2 p {
+    position: relative;
+    top: 0em;
+    font-size: 2em;
+    left: 1em;
+  }
+  .hombre__2 .boton__hombre-2 {
+    position: relative;
+    top: -1em;
+    left: 5em;
+  }
+  .productos__mujer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    left: 19rem;
+    width: 275px;
+    margin: 5rem 0rem 6rem 8rem;
+  }
+  .productos__mujer p {
+    position: relative;
+    top: 0em;
+    font-size: 2em;
+    left: 1em;
+  }
+  .productos__mujer__2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    left: 19rem;
+    width: 275px;
+    margin: 5rem 0rem 6rem 8rem;
+  }
+  .productos__mujer__2 p {
+    position: relative;
+    top: 0em;
+    font-size: 2em;
+    left: 1em;
+  }
+  .productos__mujer__2 .boton__mujer {
+    position: relative;
+    top: -1em;
+    left: 5em;
+  }
+  .marcas__1 {
+    position: relative;
+    left: 19em;
+    gap: 2em;
+  }
+  .marcas__2 {
+    position: relative;
+    left: 19em;
+    gap: 2em;
+  }
+  .form__contacto {
+    position: relative;
+    left: 20em;
+    top: 10em;
+  }
+  .contacto__h4 {
+    position: relative;
+    top: 37em;
+  }
+  .footer__contacto {
+    position: relative;
+    top: 50em;
+  }
+  .log__form {
+    position: relative;
+    left: 20em;
+    top: 10em;
+  }
+  .log__h4 {
+    position: relative;
+    top: 37em;
+  }
+  .footer__log {
+    position: relative;
+    top: 50em;
+  }
+  .registro__form {
+    position: relative;
+    left: 20em;
+    top: 10em;
+  }
+  .registro__h4 {
+    position: relative;
+    top: 37em;
+  }
+  .footer__registro {
+    position: relative;
+    top: 50em;
+  }
+}
+/*# sourceMappingURL=main.css.map */

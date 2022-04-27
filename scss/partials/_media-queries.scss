@@ -1,0 +1,222 @@
+@media screen and (max-width:500px) {
+    header {
+        width: 233vw;
+
+        h1 {
+            position: relative;
+            left: 11em;
+            bottom: 7em;
+            width: 500px;
+        }
+    }
+
+    h2 {
+        position: relative;
+        left: 7em;
+        font-size: 45px !important;
+    }
+
+    .productos__1 {
+        flex-direction: column;
+        position: relative;
+        left: 14rem;
+        width: 360px;
+        margin: 5rem 0rem 5rem 8rem;
+
+        p {
+            position: relative;
+            top: 0em;
+            font-size: 2em;
+            left: 1em;
+        }
+    }
+
+    .productos__2 {
+        flex-direction: column;
+        position: relative;
+        left: 14rem;
+        width: 360px;
+        margin: 5rem 0rem 5rem 8rem;
+
+        p {
+            position: relative;
+            top: 0em;
+            font-size: 2em;
+            left: 1em;
+        }
+    }
+
+    .boton {
+        position: relative;
+        top: -1em;
+        left: 8em;
+
+    }
+
+    button {
+        width: 120px;
+        height: 80px;
+    }
+
+    h3 {
+        position: relative;
+        left: 13em;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .iframe {
+        position: relative;
+        left: 20em;
+    }
+
+    h4 {
+        position: relative;
+        left: 14em;
+    }
+
+    footer {
+        width: 230vw;
+    }
+
+    .hombre__1 {
+        flex-direction: column;
+        position: relative;
+        left: 19rem;
+        width: 275px;
+        margin: 5rem 0rem 6rem 8rem;
+
+        p {
+            position: relative;
+            top: 0em;
+            font-size: 2em;
+            left: 1em;
+        }
+
+        .boton__hombre {
+            position: relative;
+            top: -1em;
+            left: 5em;
+        }
+    }
+
+    .hombre__2 {
+        flex-direction: column;
+        position: relative;
+        left: 19rem;
+        width: 275px;
+        margin: 0rem 0rem 5rem 8rem;
+
+        p {
+            position: relative;
+            top: 0em;
+            font-size: 2em;
+            left: 1em;
+        }
+
+        .boton__hombre-2 {
+            position: relative;
+            top: -1em;
+            left: 5em;
+        }
+    }
+
+    .productos__mujer {
+        flex-direction: column;
+        position: relative;
+        left: 19rem;
+        width: 275px;
+        margin: 5rem 0rem 6rem 8rem;
+
+        p {
+            position: relative;
+            top: 0em;
+            font-size: 2em;
+            left: 1em;
+        }
+    }
+
+    .productos__mujer__2 {
+        flex-direction: column;
+        position: relative;
+        left: 19rem;
+        width: 275px;
+        margin: 5rem 0rem 6rem 8rem;
+
+        p {
+            position: relative;
+            top: 0em;
+            font-size: 2em;
+            left: 1em;
+        }
+
+        .boton__mujer {
+            position: relative;
+            top: -1em;
+            left: 5em;
+        }
+    }
+
+    .marcas__1 {
+        position: relative;
+        left: 19em;
+        gap: 2em;
+    }
+
+    .marcas__2 {
+        position: relative;
+        left: 19em;
+        gap: 2em;
+    }
+
+    .form__contacto {
+        position: relative;
+        left: 20em;
+        top: 10em;
+    }
+
+    .contacto__h4 {
+        position: relative;
+        top: 37em;
+    }
+
+    .footer__contacto {
+        position: relative;
+        top: 50em;
+    }
+
+    .log__form {
+        position: relative;
+        left: 20em;
+        top: 10em;
+    }
+
+    .log__h4 {
+        position: relative;
+        top: 37em;
+    }
+
+    .footer__log {
+        position: relative;
+        top: 50em;
+    }
+
+    .registro__form {
+        position: relative;
+        left: 20em;
+        top: 10em;
+    }
+
+    .registro__h4 {
+        position: relative;
+        top: 37em;
+    }
+
+    .footer__registro {
+        position: relative;
+        top: 50em;
+    }
+
+}
