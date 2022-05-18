@@ -71,7 +71,7 @@ footer {
     display: flex;
     margin-top: 2rem;
     justify-content: center;
-    background: linear-gradient(85deg, rgb(146, 60, 77) 0%, rgb(175, 20, 82) 45%, rgb(221, 138, 203) 100%);
+    background-color: linear-gradient(85deg, rgb(146, 60, 77) 0%, rgb(175, 20, 82) 45%, rgb(221, 138, 203) 100%);
 }
 
 

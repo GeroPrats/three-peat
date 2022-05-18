@@ -1,6 +1,6 @@
-@media screen and (max-width:500px) {
+@media screen and (max-width:360px) {
     header {
-        width: 233vw;
+        width: 330vw;
 
         h1 {
             position: relative;
@@ -10,10 +10,11 @@
         }
     }
 
+
     h2 {
         position: relative;
         left: 7em;
-        font-size: 45px !important;
+        font-size: 55px !important;
     }
 
     .productos__1 {
@@ -26,7 +27,7 @@
         p {
             position: relative;
             top: 0em;
-            font-size: 2em;
+            font-size: 3rem;
             left: 1em;
         }
     }
@@ -41,7 +42,7 @@
         p {
             position: relative;
             top: 0em;
-            font-size: 2em;
+            font-size: 3rem;
             left: 1em;
         }
     }
@@ -60,8 +61,11 @@
 
     h3 {
         position: relative;
-        left: 13em;
+        left: 11em;
+        font-size: 35px !important;
     }
+
+
 
     iframe {
         display: none;
@@ -69,17 +73,27 @@
 
     .iframe {
         position: relative;
-        left: 20em;
+        left: 24em;
     }
 
     h4 {
         position: relative;
         left: 14em;
+        font-size: 28px !important;
     }
 
     footer {
-        width: 235vw;
-        height: 35vh;
+        width: 331vw;
+        height: 45vh;
+
+        p {
+            font-size: 2rem;
+        }
+    }
+
+    .ajuste-icon {
+        width: 0px;
+        display: none;
     }
 
     .hombre__1 {
@@ -92,7 +106,7 @@
         p {
             position: relative;
             top: 0em;
-            font-size: 2em;
+            font-size: 3em;
             left: 1em;
         }
 
@@ -113,7 +127,7 @@
         p {
             position: relative;
             top: 0em;
-            font-size: 2em;
+            font-size: 3em;
             left: 1em;
         }
 
@@ -134,7 +148,7 @@
         p {
             position: relative;
             top: 0em;
-            font-size: 2em;
+            font-size: 3em;
             left: 1em;
         }
     }
@@ -149,7 +163,7 @@
         p {
             position: relative;
             top: 0em;
-            font-size: 2em;
+            font-size: 3em;
             left: 1em;
         }
 
@@ -164,62 +178,84 @@
 
     .marcas__1 {
         position: relative;
-        left: 19em;
-        gap: 2em;
+        left: 24em;
+        gap: 10em;
+        margin-top: 13rem;
     }
 
     .marcas__2 {
         position: relative;
-        left: 19em;
-        gap: 2em;
+        left: 24em;
+        gap: 10em;
+        margin-bottom: 20rem;
+    }
+
+    form {
+        p {
+            font-size: 2rem;
+        }
     }
 
     .form__contacto {
         position: relative;
-        left: 20em;
-        top: 10em;
+        left: 24em;
+        top: 19em;
+    }
+
+
+    .h3__contacto {
+        top: 2rem;
     }
 
     .contacto__h4 {
         position: relative;
-        top: 37em;
+        top: 41em;
     }
 
     .footer__contacto {
         position: relative;
-        top: 50em;
+        top: 72em;
     }
 
     .log__form {
         position: relative;
-        left: 20em;
-        top: 10em;
+        left: 26em;
+        top: 25em;
+    }
+
+    .log__h3 {
+        top: 4rem;
     }
 
     .log__h4 {
         position: relative;
-        top: 37em;
+        top: 45em;
     }
 
     .footer__log {
         position: relative;
-        top: 50em;
+        top: 79em;
     }
 
     .registro__form {
         position: relative;
-        left: 20em;
-        top: 10em;
+        left: 26em;
+        top: 25em;
+    }
+
+    .registro__h3 {
+        top: 4rem;
+        
     }
 
     .registro__h4 {
         position: relative;
-        top: 37em;
+        top: 45em;
     }
 
     .footer__registro {
         position: relative;
-        top: 50em;
+        top: 79em;
     }
 
 }

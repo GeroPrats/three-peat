@@ -3,11 +3,17 @@ header {
     img {
         width: 100px;
         border-radius: 28px;
+
+        &:hover{
+            transform: rotate(90deg);
+        }
     }
 
     h1 {
         font-size: xx-large;
         position: relative;
         right: 14rem;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 }
